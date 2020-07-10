@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.update.UpdateFragment" >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NombreUpdate_TI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nombre_TX" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/BuscarUpdate_BT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Buscar_TX"
+        android:background="@color/darkviolet"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TelefonoUpdate_TI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Telefono_TX" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CantidadUpdate_TI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Cantidad_TX" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/Actualizar_BT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Actualizar_TX"
+        android:background="@color/darkviolet"
+        android:fontFamily="@font/alegreya_sans_sc_black_italic"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

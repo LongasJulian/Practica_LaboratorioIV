@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Deudor App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_create">Crear Deudor</string>
+    <string name="Guardar_TX">Guardar</string>
+    <string name="Nombre_TX">Nombre</string>
+    <string name="Telefono_TX">Telefono</string>
+    <string name="Cantidad_TX">Cantidad</string>
+    <string name="title_read">Buscar Deudor</string>
+    <string name="Buscar_TX">Buscar</string>
+    <string name="title_update">Actualizar Deudor</string>
+    <string name="Actualizar_TX">Actualizar</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Borrar_TX">Borrar</string>
+    <string name="title_delete">Borrar Deudor</string>
+    <string name="Nombre_Deudor_TX">Nombre Deudor</string>
+    <string name="Deuda_TX">Deuda</string>
+    <string name="title_List">Lista de Deudores</string>
+    <string name="Titulo_TX">Deudor App</string>
+    <string name="Login_TX">Login</string>
+    <string name="Registrarse_TX">Registrarse</string>
+    <string name="Correo_TX">Correo</string>
+    <string name="contrasena_TX">Contraseña</string>
+    <string name="repPasswordRegistro_TX">Repita la contraseña</string>
+</resources>
